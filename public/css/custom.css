@@ -1,0 +1,101 @@
+/* Reset some basic elements to remove default styles */
+body, h1, h2, h3, h4, h5, h6, p, div, span, img, ul, li, a, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Set some basic styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #5f11dd;
+    color: #190dc4;
+    padding: 20px;
+    background-image: url('https://ibb.co.com/JyQkQrD'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #e2f104;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header styles */
+header {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #6797ca;
+    color: #9830f8;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"], form input[type="date"], form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #f9fd03;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #ff009d;
+    color: #3b98d6;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #289e0b;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #96d3f0;
+    text-align: left;
+}
+
+table th {
+    background-color: #09fada;
+    font-weight: bold;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #4c80f1;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    text-align: center;
+}
